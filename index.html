@@ -1,50 +1,68 @@
-﻿
-
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-    <title>Homework 1</title>
-  </head>
-  <body>
-      <div class="global-div">
-
-        <div class="main-header">
-            <h1>Козлов Владислав Игоревич</h1>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Fitness</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="main-container">
+            <header>
+                <div class="logo-container">
+                        <img src="img/logo.png" alt="logo" class="logo-img">
+                </div>
+                    <nav class="main-nav">
+                        <ul class="navbar">
+                            <li class="nav-button"><a href="">Главная</a></li>
+                            <li class="nav-button current"><a href="">Товары</a></li>
+                            <li class="nav-button"><a href="">О_нас</a></li>
+                            <li class="nav-button"><a href="">Контакты</a></li>
+                        </ul>
+                    </nav>
+            </header>
+            <div class="sidebar">
+                <nav class="side-menu">
+                    <ul>
+                        <li><a href="#">Ноутбуки</a></li>
+                        <li><a href="#">Планшеты</a></li>
+                        <li><a href="#">Телефоны</a></li>
+                        <li><a href="#">Телевизоры</a></li>
+                        <li><a href="#">Бытовая техника</a></li>
+                        <li><a href="#">Автотовары</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <article class="main-article">
+                <div class="img-container">
+                    <img src="img/bscl.png" alt="Велосипед" class="main-image"/>
+                </div>
+                <div class="text-container">
+                    <p>
+                        Lorem Ipsum - це текст-"риба", що використовується в друкарстві та дизайні.
+                        Lorem Ipsum є, фактично, стандартною "рибою" аж з XVI сторіччя, коли невідомий
+                        друкар взяв шрифтову гранку та склав на ній підбірку зразків шрифтів. "Риба" не
+                        тільки успішно пережила п'ять століть, але й прижилася в електронному верстуванні,
+                        залишаючись по суті незмінною. Вона популяризувалась в 60-их роках минулого
+                        сторіччя завдяки виданню зразків шрифтів Letraset, які містили
+                        уривки з Lorem Ipsum, і вдруге -
+                        нещодавно завдяки програмам комп'ютерного верстування на кшталт
+                        Aldus Pagemaker, які використовували різні версії Lorem Ipsum.
+                    </p>
+                </div>
+            </article>
+            <div class="clear"></div>
+            <footer>
+                <nav class="footer-navbar">
+                    <ul class="footer-menu">
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">Товары</a></li>
+                        <li><a href="#">О_нас</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">2015 &copy; All rights reserved</a></li>
+                    </ul>
+                </nav>
+            </footer>
         </div>
-        <div class="image-container">
-            <img src="media/pic1.jpg" alt="My photo" class="main-photo">
-        </div>
-        <div class="profession">
-            <p>Аналитик службы безопасности банка</p>
-        </div>
-        <div class="delimiter"></div>
-        <div class="info reasons">
-            <h2>Хочу учить фронтенд, потому что:</h2>
-                <ul>
-                    <li>в IT меньше рутины и выше зарплаты;</li>
-                    <li>у меня есть идеи, которые нельзя воплотить без достойного сайта;</li>
-                    <li>это даст мне более удобный способ создавать GUI для python-приложений, чем имеющиеся в Python библиотеки;</li>
-                    <li>я уже умею работать с базами данных и пишу на Python, еще пара шагов после обучения front end, и можно будет претендовать на статус full stack разработчика;</li>
-                </ul>
-        </div>
-        <div class="delimiter"></div>
-        <div class="info contacts">
-          <div class="phone">
-            <h2>Мой контактный телефон:</h2>
-            <p>+380663230027</p>
-          </div>
-          <div class="social">
-            <h2>Мой профиль vk:</h2>
-            <p><a href="https://vk.com/madlibrarian" target="_blank">vk.com</a></p>
-          </div>
-        </div>
-        <div class="delimiter"></div>
-        <div class="info feedback">
-            <h2>Мой фидбек:</h2>
-            <p>Могу прочитать лекцию по банковскому делу, построить antifraud систему на предприятии, занимающемся розничным бизнесом, написать загадочный код на Python или T-SQL (а то и на обоих сразу) и выпить весь Ваш кофе.</p>
-        </div>
-      </div>
-  </body>
+    </body>
 </html>
